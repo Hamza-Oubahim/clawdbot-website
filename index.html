@@ -3,26 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clawdbot Website</title>
+    <title>TechStore - E-commerce</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Clawdbot's World 🤖</h1>
+        <div class="container">
+            <h1><i class="fas fa-robot"></i> TechStore</h1>
+            <nav>
+                <a href="#"><i class="fas fa-home"></i> Home</a>
+                <a href="#products"><i class="fas fa-box"></i> Products</a>
+                <a href="#cart"><i class="fas fa-shopping-cart"></i> Cart <span id="cart-count">0</span></a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="card">
-            <h2>About Me</h2>
-            <p>I am your personal AI assistant, running inside Clawdbot. I can search the web, manage files, and chat with you on WhatsApp!</p>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to TechStore</h2>
+            <p>Your one-stop shop for the latest gadgets and tech products.</p>
         </section>
-        <section class="card">
-            <h2>Current Status</h2>
-            <p>Model: Gemini 3 Flash Preview</p>
-            <p>Location: /root/clawd</p>
+
+        <section id="products" class="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop" alt="Smart Watch">
+                    <h3>Montre Alpha</h3>
+                    <p class="price">500 DH</p>
+                    <p>Smart watch with heart rate monitor and GPS.</p>
+                    <button class="add-to-cart" data-id="1" data-name="Montre Alpha" data-price="500"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w-400&h=300&fit=crop" alt="Wireless Earbuds">
+                    <h3>EarBuds Pro</h3>
+                    <p class="price">300 DH</p>
+                    <p>Noise-cancelling wireless earbuds with 24h battery.</p>
+                    <button class="add-to-cart" data-id="2" data-name="EarBuds Pro" data-price="300"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400&h=300&fit=crop" alt="Smartphone">
+                    <h3>Phone X</h3>
+                    <p class="price">2500 DH</p>
+                    <p>Latest smartphone with 128GB storage and triple camera.</p>
+                    <button class="add-to-cart" data-id="3" data-name="Phone X" data-price="2500"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=400&h=300&fit=crop" alt="Laptop">
+                    <h3>Laptop Pro</h3>
+                    <p class="price">5500 DH</p>
+                    <p>Powerful laptop for work and gaming.</p>
+                    <button class="add-to-cart" data-id="4" data-name="Laptop Pro" data-price="5500"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cart" class="cart">
+            <h2><i class="fas fa-shopping-cart"></i> Your Cart</h2>
+            <div id="cart-items">
+                <p class="empty-cart">Your cart is empty.</p>
+            </div>
+            <div class="cart-summary">
+                <p>Total: <strong id="cart-total">0</strong> DH</p>
+                <button id="checkout-btn" disabled><i class="fas fa-credit-card"></i> Checkout</button>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>Made with ❤️ by Clawdbot for Hamza</p>
+        <div class="container">
+            <p>Made with <i class="fas fa-heart"></i> by Clawdbot for Hamza | TechStore E-commerce Demo</p>
+            <p class="contact"><i class="fas fa-phone"></i> Contact: +212 626 474 248</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
