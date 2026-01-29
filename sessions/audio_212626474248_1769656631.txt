@@ -1,7 +1,0 @@
-{
-  "session_key": "whatsapp:212626474248",
-  "message": "وفين ا صلاح شكتعاود كلشي بخير",
-  "source": "audio_transcription",
-  "timestamp": 1769656631.2767508,
-  "metadata": {}
-}

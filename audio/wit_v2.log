@@ -1,4 +1,0 @@
-2026-01-29 03:33:15,962 - __main__ - INFO - Wit.ai Audio Handler v2 initialized
-2026-01-29 03:33:15,962 - __main__ - INFO - Available languages: ['en', 'ar', 'fr', 'default']
-2026-01-29 03:33:15,962 - __main__ - INFO - Processing existing files in incoming directory...
-2026-01-29 03:33:15,963 - __main__ - INFO - Started monitoring directory: /root/clawd/audio/incoming

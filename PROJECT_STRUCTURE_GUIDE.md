@@ -2,10 +2,10 @@
 
 ## For Each New Project:
 
-1. **Create a new folder** inside `/root/clawd/scripts/` with a descriptive name
-2. **Include only essential files** (remove tests, logs, temporary files)
-3. **Always run under appropriate environment** (virtual env, node env, etc.)
-4. **Maintain clean structure** with clear organization
+1. **Unique Identity:** Every project MUST have a descriptive folder name in `scripts/`.
+2. **Mandatory Sandboxing:** EVERY Python project MUST use a project-local `venv/`. No exceptions.
+3. **Clean On-Boarding:** Include a `run.sh` that handles environment activation and execution.
+4. **Simplicity First:** Keep structure flat. Remove any file not actively used in production.
 
 ## Folder Structure Template:
 
@@ -27,6 +27,7 @@
 
 ## Cleanup Rules:
 
+- **Token Wash:** Remove all comments or documentation that do not add functional value. Concise code > verbose comments for token efficiency.
 - Remove `__pycache__/`, `node_modules/`, `.git/` (unless it's the main repo)
 - Remove test files unless they're essential examples
 - Remove log files, temporary files, and build artifacts
@@ -34,6 +35,7 @@
 
 ## Environment Setup:
 
-- Python: Always use virtual environment (`venv/` in project root)
-- Node.js: Use project-local `node_modules/`
-- Shell: Set proper environment variables in `run.sh`
+- **Python:** Mandatory virtual environment (`python3 -m venv venv`). Always use `./venv/bin/python` or source the environment.
+- **Node.js:** Use `npm init -y` and project-local `node_modules/`.
+- **Shell:** Each project must have a `run.sh` entry point that guarantees the correct environment is loaded.
+- **Cleanup:** All projects must be isolated. No project should write to the workspace root.
