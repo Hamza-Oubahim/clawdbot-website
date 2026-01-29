@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+.python-version
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.pid
+*.tar
+website.tar
+
+# Audio processing
+audio/incoming/*
+audio/processed/*
+audio/transcripts/*
+!audio/incoming/.gitkeep
+!audio/processed/.gitkeep
+!audio/transcripts/.gitkeep
+
+# Sessions
+sessions/*
+
+# WhatsApp responses
+whatsapp_responses/*
+
+# Test files
+test_*.py
+test_*.txt
+
+# Virtual environment
+venv/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Config secrets
+config/.env
+*.key
+*.pem
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Backup files
+backup_*/
+*.bak
+*.backup
