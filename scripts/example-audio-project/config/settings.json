@@ -1,0 +1,9 @@
+{
+  "project_name": "example-audio-project",
+  "version": "1.0.0",
+  "description": "Project configuration",
+  "settings": {
+    "debug": false,
+    "log_level": "INFO"
+  }
+}

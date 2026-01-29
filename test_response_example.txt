@@ -1,0 +1,9 @@
+Example Workflow:
+1. French audio: "Salut Sarah, ça va?"
+2. Detected as: French
+3. Transcript: "Salut Sarah, ça va?"
+4. Response: "Bonjour Sarah! Je vais bien, merci de demander. Comment puis-je vous aider aujourd'hui?"
+5. Queued for WhatsApp sending
+
+Test with:
+cp /path/to/audio.ogg /root/clawd/audio/incoming/212626474248_$(date +%s).ogg

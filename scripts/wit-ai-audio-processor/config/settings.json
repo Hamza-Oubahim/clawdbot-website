@@ -1,0 +1,58 @@
+{
+  "project_name": "wit-ai-audio-processor",
+  "version": "2.0.0",
+  "description": "Wit.ai Audio Processing System with Language Detection",
+  
+  "directories": {
+    "incoming": "/root/clawd/audio/incoming",
+    "processed": "/root/clawd/audio/processed",
+    "transcripts": "/root/clawd/audio/transcripts",
+    "sessions": "/root/clawd/sessions"
+  },
+  
+  "api_keys": {
+    "default": "",
+    "en": "",
+    "ar": "",
+    "fr": ""
+  },
+  
+  "processing": {
+    "max_audio_duration": 300,
+    "chunk_duration": 15,
+    "supported_formats": [".ogg", ".mp3", ".wav", ".m4a", ".flac", ".opus"]
+  },
+  
+  "logging": {
+    "log_level": "INFO",
+    "log_file": "logs/wit_processor.log",
+    "max_file_size_mb": 10,
+    "backup_count": 5
+  },
+  
+  "monitoring": {
+    "poll_interval_seconds": 1,
+    "file_check_delay_seconds": 0.5
+  },
+  
+  "clawdbot_integration": {
+    "session_prefix": "wit_",
+    "include_metadata": true,
+    "auto_cleanup_days": 7
+  },
+  
+  "debug": false,
+  "auto_start": true,
+  
+  "environment": {
+    "use_global_env": true,
+    "api_key_mapping": {
+      "WIT_API_KEY_ENGLISH": "en",
+      "WIT_API_KEY_ARABIC": "ar", 
+      "WIT_API_KEY_FRENCH": "fr",
+      "OPENAI_API_KEY": "openai",
+      "GEMINI_API_KEY": "gemini",
+      "DEEPSEEK_API_KEY": "deepseek"
+    }
+  }
+}

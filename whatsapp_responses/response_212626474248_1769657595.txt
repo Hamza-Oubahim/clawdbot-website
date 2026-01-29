@@ -1,0 +1,6 @@
+{
+  "to": "212626474248",
+  "message": "Hi Sala! Hello! I'm doing well, thanks for asking. How can I help you today?",
+  "language": "en",
+  "timestamp": 1769657595.9592974
+}

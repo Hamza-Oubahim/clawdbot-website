@@ -1,0 +1,76 @@
+2026-01-29 03:15:33,181 - __main__ - INFO - Wit.ai Audio Handler initialized
+2026-01-29 03:15:33,181 - __main__ - INFO - Available languages: ['default']
+2026-01-29 03:15:33,181 - __main__ - INFO - Processing existing files in incoming directory...
+2026-01-29 03:15:33,182 - __main__ - INFO - Processing audio file: 212635278125_1769654174.ogg
+2026-01-29 03:15:33,182 - __main__ - INFO - Transcribing /root/clawd/audio/incoming/212635278125_1769654174.ogg with language: ar
+2026-01-29 03:15:33,182 - __main__ - INFO - Converting .ogg to WAV format...
+2026-01-29 03:15:33,258 - __main__ - ERROR - FFmpeg conversion failed: [in#0 @ 0x640b1eda1e00] Error opening input: End of file
+Error opening input file /root/clawd/audio/incoming/212635278125_1769654174.ogg.
+Error opening input files: End of file
+
+2026-01-29 03:15:33,258 - __main__ - ERROR - Failed to process /root/clawd/audio/incoming/212635278125_1769654174.ogg: Command '['ffmpeg', '-i', '/root/clawd/audio/incoming/212635278125_1769654174.ogg', '-ar', '16000', '-ac', '1', '-sample_fmt', 's16', '/tmp/converted_1769656533.wav', '-y', '-hide_banner', '-loglevel', 'error']' returned non-zero exit status 187.
+2026-01-29 03:15:33,258 - __main__ - INFO - Processing audio file: 212626474248_1769654174.ogg
+2026-01-29 03:15:33,258 - __main__ - INFO - Transcribing /root/clawd/audio/incoming/212626474248_1769654174.ogg with language: ar
+2026-01-29 03:15:33,258 - __main__ - INFO - Converting .ogg to WAV format...
+2026-01-29 03:15:33,332 - __main__ - ERROR - FFmpeg conversion failed: [in#0 @ 0x59f1119aee00] Error opening input: End of file
+Error opening input file /root/clawd/audio/incoming/212626474248_1769654174.ogg.
+Error opening input files: End of file
+
+2026-01-29 03:15:33,332 - __main__ - ERROR - Failed to process /root/clawd/audio/incoming/212626474248_1769654174.ogg: Command '['ffmpeg', '-i', '/root/clawd/audio/incoming/212626474248_1769654174.ogg', '-ar', '16000', '-ac', '1', '-sample_fmt', 's16', '/tmp/converted_1769656533.wav', '-y', '-hide_banner', '-loglevel', 'error']' returned non-zero exit status 187.
+2026-01-29 03:15:33,333 - __main__ - INFO - Started monitoring directory: /root/clawd/audio/incoming
+2026-01-29 03:15:39,329 - __main__ - INFO - New audio file detected: /root/clawd/audio/incoming/212626474248_1769656539_final_test.ogg
+2026-01-29 03:15:40,329 - __main__ - INFO - Processing audio file: 212626474248_1769656539_final_test.ogg
+2026-01-29 03:15:40,329 - __main__ - INFO - Transcribing /root/clawd/audio/incoming/212626474248_1769656539_final_test.ogg with language: ar
+2026-01-29 03:15:40,330 - __main__ - INFO - Converting .ogg to WAV format...
+2026-01-29 03:15:40,412 - __main__ - INFO - Converted to WAV: /tmp/converted_1769656540.wav
+2026-01-29 03:15:40,488 - __main__ - INFO - Audio duration: 3.45 seconds
+2026-01-29 03:15:40,489 - __main__ - INFO - Processing entire audio file...
+2026-01-29 03:15:41,340 - __main__ - INFO - Intermediate transcript: السلام عليكم
+2026-01-29 03:15:41,340 - __main__ - INFO - Full transcript: السلام عليكم كيداير بخير? كلشي مزيان?
+2026-01-29 03:15:41,340 - __main__ - INFO - Full transcript: السلام عليكم كيداير بخير? كلشي مزيان
+2026-01-29 03:15:41,342 - __main__ - INFO - Successfully processed 212626474248_1769656539_final_test.ogg
+2026-01-29 03:15:41,342 - __main__ - INFO - Transcript saved to /root/clawd/audio/transcripts/212626474248_1769656539.txt
+2026-01-29 03:15:41,342 - __main__ - INFO - Session file created: /root/clawd/sessions/whatsapp_212626474248_1769656539.txt
+2026-01-29 03:17:08,692 - __main__ - INFO - New audio file detected: /root/clawd/audio/incoming/212626474248_1769656628.ogg
+2026-01-29 03:17:09,692 - __main__ - INFO - Processing audio file: 212626474248_1769656628.ogg
+2026-01-29 03:17:09,692 - __main__ - INFO - Transcribing /root/clawd/audio/incoming/212626474248_1769656628.ogg with language: ar
+2026-01-29 03:17:09,692 - __main__ - INFO - Converting .ogg to WAV format...
+2026-01-29 03:17:09,780 - __main__ - INFO - Converted to WAV: /tmp/converted_1769656629.wav
+2026-01-29 03:17:09,848 - __main__ - INFO - Audio duration: 10.01 seconds
+2026-01-29 03:17:09,848 - __main__ - INFO - Processing entire audio file...
+2026-01-29 03:17:11,274 - __main__ - INFO - Intermediate transcript: وفين ا صلاح شكت
+2026-01-29 03:17:11,274 - __main__ - INFO - Full transcript: وفين ا صلاح شكتعاود كلشي بخير?
+2026-01-29 03:17:11,274 - __main__ - INFO - Full transcript: وفين ا صلاح شكتعاود كلشي بخير
+2026-01-29 03:17:11,276 - __main__ - INFO - Successfully processed 212626474248_1769656628.ogg
+2026-01-29 03:17:11,277 - __main__ - INFO - Transcript saved to /root/clawd/audio/transcripts/212626474248_1769656628.txt
+2026-01-29 03:17:11,277 - __main__ - INFO - Session file created: /root/clawd/sessions/whatsapp_212626474248_1769656628.txt
+2026-01-29 03:18:20,262 - __main__ - INFO - New audio file detected: /root/clawd/audio/incoming/212626474248_1769656700.ogg
+2026-01-29 03:18:21,262 - __main__ - INFO - Processing audio file: 212626474248_1769656700.ogg
+2026-01-29 03:18:21,262 - __main__ - INFO - Transcribing /root/clawd/audio/incoming/212626474248_1769656700.ogg with language: ar
+2026-01-29 03:18:21,262 - __main__ - INFO - Converting .ogg to WAV format...
+2026-01-29 03:18:21,338 - __main__ - INFO - Converted to WAV: /tmp/converted_1769656701.wav
+2026-01-29 03:18:21,404 - __main__ - INFO - Audio duration: 3.17 seconds
+2026-01-29 03:18:21,404 - __main__ - INFO - Processing entire audio file...
+2026-01-29 03:18:22,476 - __main__ - INFO - Full transcript: 
+2026-01-29 03:18:22,476 - __main__ - INFO - Full transcript: 
+2026-01-29 03:18:22,477 - __main__ - INFO - Successfully processed 212626474248_1769656700.ogg
+2026-01-29 03:18:22,477 - __main__ - INFO - Transcript saved to /root/clawd/audio/transcripts/212626474248_1769656700.txt
+2026-01-29 03:18:22,478 - __main__ - INFO - Session file created: /root/clawd/sessions/whatsapp_212626474248_1769656700.txt
+2026-01-29 04:25:53,210 - __main__ - INFO - Wit.ai Audio Handler initialized
+2026-01-29 04:25:53,211 - __main__ - INFO - Available languages: ['en', 'ar', 'fr']
+2026-01-29 04:25:53,211 - __main__ - INFO - Processing existing files in incoming directory...
+2026-01-29 04:25:53,211 - __main__ - INFO - Processing audio file: test_audio_1769660748.ogg
+2026-01-29 04:25:53,211 - __main__ - ERROR - Failed to process /root/clawd/audio/incoming/test_audio_1769660748.ogg: No Wit.ai API key found for language: default
+2026-01-29 04:25:53,212 - __main__ - INFO - Started monitoring directory: /root/clawd/audio/incoming
+2026-01-29 04:26:15,755 - __main__ - INFO - Wit.ai Audio Handler initialized
+2026-01-29 04:26:15,755 - __main__ - INFO - Available languages: ['en', 'ar', 'fr', 'default']
+2026-01-29 04:26:15,755 - __main__ - INFO - Processing existing files in incoming directory...
+2026-01-29 04:26:15,755 - __main__ - INFO - Processing audio file: test_audio_1769660748.ogg
+2026-01-29 04:26:15,755 - __main__ - INFO - Transcribing /root/clawd/audio/incoming/test_audio_1769660748.ogg with language: default
+2026-01-29 04:26:15,755 - __main__ - INFO - Converting .ogg to WAV format...
+2026-01-29 04:26:15,843 - __main__ - INFO - Converted to WAV: /tmp/converted_1769660775.wav
+2026-01-29 04:26:15,930 - __main__ - INFO - Audio duration: 5.27 seconds
+2026-01-29 04:26:15,930 - __main__ - INFO - Processing entire audio file...
+2026-01-29 04:26:16,114 - __main__ - ERROR - Wit.ai API error: 400 Client Error: Bad Request for url: https://api.wit.ai/speech
+2026-01-29 04:26:16,114 - __main__ - ERROR - Failed to process /root/clawd/audio/incoming/test_audio_1769660748.ogg: 400 Client Error: Bad Request for url: https://api.wit.ai/speech
+2026-01-29 04:26:16,117 - __main__ - INFO - Started monitoring directory: /root/clawd/audio/incoming
