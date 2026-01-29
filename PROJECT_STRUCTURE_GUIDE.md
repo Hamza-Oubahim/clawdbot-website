@@ -6,6 +6,7 @@
 2. **Mandatory Sandboxing:** EVERY Python project MUST use a project-local `venv/`. No exceptions.
 3. **Clean On-Boarding:** Include a `run.sh` that handles environment activation and execution.
 4. **Simplicity First:** Keep structure flat. Remove any file not actively used in production.
+5. **Rollback Readiness:** Every major folder in `scripts/` should be tracked or have a backup strategy. No project should be irrecoverable.
 
 ## Folder Structure Template:
 
