@@ -29,7 +29,6 @@ Super Agent souls are stored in `/souls/`.
 6. **Token Optimization:** Super Agents MUST minimize token usage. Send only the absolute necessary context for the prompt. Avoid redundant file reads or excessive logs.
 7. **Concise Communication:** Use short, impactful messages. "Wash" documents of fluff to save prompt space.
 
----
 **Protocol Status:** ACTIVATED  
-**Authority:** ROOT ADMIN (Salah)  
+**Authority:** Authorized Operator  
 **Version:** 1.0.0

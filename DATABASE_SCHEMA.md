@@ -1,3 +1,0 @@
-products(id, name, price, compare_at_price, description, images, category, collection_name, stock, status, colors, is_featured, is_new_arrival, is_free_shipping, show_on_home)
-customers(id, tenant_id, phone, social_handle, platform, lifetime_value, notes, created_at, updated_at)
-orders(id, tenant_id, customer_id, product_data, total_price, status, source_platform, customer_name, customer_phone, address, city, created_at, updated_at)
